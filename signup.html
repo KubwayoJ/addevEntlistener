@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="signup.css">
+    <script defer src="signup.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="father">
+
+        <div class="left-father">
+            <div class="logo"></div>
+            <h1> Join our coding school quiz system. </h1>
+            <p id="subtitle">
+                Develop your understanding in teamwork, to be skilled and knowledged in leadership
+                Test your knowledge, track your progress, and become a better programmer with our comprehensive quiz system.
+            </p>
+        </div>
+
+        <div class="right-father">
+            <h2>Starting Jouney of teamworking</h2>
+            <p>Starting Jouney of teamworking</p>
+
+
+        <div form-input>
+            <label for="name">Full name:</label><br>
+            <input type="text"  id="fullName" required><br><br>
+            <div class="alert" id="fullName-alert">Name must be four caractors long</div>
+        </div>
+
+        <div form-input>
+            <label for="name">E-mail:</label><br>
+            <input type="email"  id="email" required><br><br>
+            <div class=" alert" id="email-alert"  > Email required</div>
+        </div>
+
+        <div form-input>
+        <label for="name">E-mail:</label><br>
+            <label for="">Programming Experience</label><br>
+            <select name="" id="janvier" required >
+                <option value="select ">Select Your Level</option>
+                <option value="select ">Beginner</option>
+                <option value="select">Intermediate</option>
+                <option value="select">Advanced</option>
+            </select>
+            <div class=" alert"  id="level-alert" > Email required</div>
+        </div>
+
+
+            <div form-input>
+                <label for="name">Password:</label><br>
+                <input type="password"  id="password" required><br><br>
+                <label for="" id="password-strength">Password-strength</label>
+                <P id="PasswordMessage"></P>
+                <div id="loader"></div>
+            </div>
+            
+            <button id="btn">Create Acoount</button>
+        </div> 
+    </div>
+</body>
+</html>
